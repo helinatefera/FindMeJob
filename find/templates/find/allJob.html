@@ -1,0 +1,10 @@
+{% for j in job %}
+
+{{j.user}}
+<div uk-drop="mode: click;offset:9" class="header_dropdown profile_dropdown border-t">
+    <ul>
+       
+        <li><a href="{% url 'logout' %}"> Log Out</a></li>
+    </ul>
+</div>
+{% endfor %}
