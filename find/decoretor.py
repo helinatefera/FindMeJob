@@ -6,7 +6,6 @@ from django.shortcuts import redirect
 def allowed_user(allowed_roles=[]):
     def decoretor(view_func):
         def wrapper_func(request,*args,**kwargs):
-
             group = None
             if request.user.groups.exists():
                 group = request.user.group.all()[0].name
