@@ -1,2 +1,1 @@
-# FindMeJob
-Django web application for job finder.
+Simple job finding Platform.
