@@ -1,1 +1,1 @@
-Simple job finding Platform.
+Simple Django job finding Platform.
